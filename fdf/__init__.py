@@ -3,5 +3,6 @@
 from fdf.exceptions import FdfError, MapFormatError
 from fdf.model import Map, Point
 from fdf.parser import parse_map
+from fdf.projection import Camera
 
-__all__ = ["FdfError", "MapFormatError", "Point", "Map", "parse_map"]
+__all__ = ["Camera", "FdfError", "MapFormatError", "Point", "Map", "parse_map"]
